@@ -817,6 +817,11 @@ body.active { overflow-y: hidden; }
   width: max-content;
   margin-inline: auto;
   margin-bottom: 10px;
+
+}
+
+.store {
+  width: 120px;
 }
 
 .newsletter-title { font-size: var(--fs-3); }
