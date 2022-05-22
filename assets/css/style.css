@@ -802,6 +802,7 @@ body.active { overflow-y: hidden; }
 
 .newsletter { padding: var(--section-padding) 0 120px; }
 
+
 .newsletter-card {
   background: url("../images/newsletter-bg.jpg") no-repeat;
   background-size: cover;
@@ -810,6 +811,16 @@ body.active { overflow-y: hidden; }
   border-radius: 12px;
   text-align: center;
 }
+
+.newsletter-pcard {
+  background: url("../bg/bgg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 25px;
+  border-radius: 12px;
+  text-align: center;
+}
+
 
 .newsletter-content { margin-bottom: 30px; }
 
@@ -821,8 +832,11 @@ body.active { overflow-y: hidden; }
 }
 
 .store {
-  width: 120px;
+  width: 150px;
+  height: 60px;
 }
+
+
 
 .newsletter-title { font-size: var(--fs-3); }
 
@@ -1282,6 +1296,7 @@ body.active { overflow-y: hidden; }
    */
 
   .newsletter-card { text-align: left; }
+  .newsletter-pcard { text-align: left; }
 
   .newsletter-content {
     display: flex;
@@ -1603,6 +1618,13 @@ body.active { overflow-y: hidden; }
     gap: 50px;
     padding: 45px 50px;
   }
+  .newsletter-pcard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 45px 50px;
+  }
 
   .newsletter-content {
     margin-inline: 0;
@@ -1758,6 +1780,7 @@ body.active { overflow-y: hidden; }
    */
 
   .newsletter-card { padding-block: 60px; }
+  .newsletter-pcard { padding-block: 60px; }
 
   .newsletter-content { max-width: 500px; }
 
