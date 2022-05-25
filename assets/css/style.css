@@ -375,7 +375,7 @@ body.active { overflow-y: hidden; }
 \*-----------------------------------*/
 
 .hero {
-  background: url("../bg/4.jpg") no-repeat;
+  background: url("../bg/4.webp") no-repeat;
   background-size: cover;
   background-position: top center;
   margin-top: 90px;
@@ -420,7 +420,7 @@ body.active { overflow-y: hidden; }
 \*-----------------------------------*/
 
 .section-wrapper {
-  background: url("../images/section-wrapper-bg.jpg") no-repeat;
+  background: url("../bg/section-wrapper-bg.webp") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -873,7 +873,7 @@ body.active { overflow-y: hidden; }
 \*-----------------------------------*/
 
 .footer-top {
-  background: url("../images/footer-bg.jpg") no-repeat;
+  background: url("../bg/footer-bg.webp") no-repeat;
   background-size: cover;
   background-position: center;
   padding: var(--section-padding) 0;
